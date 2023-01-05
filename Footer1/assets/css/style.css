@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+#footer {
+  background-color: lightblue; }
+  #footer .container {
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    #footer .container__list--head {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    #footer .container__list--item {
+      margin-bottom: 16px; }
+      #footer .container__list--item a {
+        color: gray; }
+    #footer .container__list--icons a {
+      margin-right: 7px; }
+      #footer .container__list--icons a i {
+        font-size: 30px;
+        color: black; }
+  #footer .bottom {
+    text-align: center; }
+    #footer .bottom p {
+      padding-bottom: 30px; }
